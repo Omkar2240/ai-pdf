@@ -10,39 +10,122 @@ AI PDF is a project that leverages artificial intelligence to analyze, extract, 
 - **Customizable Workflows**: Adapt workflows to suit your specific document processing needs.
 - **User-Friendly Interface**: Simplify handling and processing of PDFs with an intuitive interface.
 
-## Installation
-To use this project, clone the repository and install the necessary dependencies:
-```bash
-git clone https://github.com/Omkar2240/ai-pdf.git
-cd ai-pdf
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## Usage
-1. Place your PDF files in the designated folder.
-2. Run the main script to analyze the PDF:
-   ```bash
-   python main.py
-   ```
-3. View the extracted data or results in the output folder.
-
-## Contributing
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request:
-1. Fork the repo.
-2. Create a new branch for your feature:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Description of changes"
-   ```
-4. Push to your fork and submit a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
+Here's a clean and well-formatted version of your README content in Markdown:
 
 ---
 
-Let me know if you'd like to proceed with this or make any changes!
+# AI-PDF
+
+**AI-PDF** is an intelligent document processing tool that uses artificial intelligence to analyze, extract, and interact with data from PDF files. It simplifies complex PDF handling workflows and provides a seamless user experience through a modern frontend and robust backend.
+
+---
+
+## 🚀 Features
+
+* **AI-Powered Analysis**: Extract insights and structured data from PDF documents using cutting-edge AI models.
+* **Customizable Workflows**: Tailor processing workflows to fit specific document requirements.
+* **User-Friendly Interface**: Built with TailwindCSS for a clean and intuitive user experience.
+* **FastAPI Backend**: High-performance API layer for document processing and AI inference.
+
+---
+
+## 📁 Repository Structure
+
+```
+AI-PDF-Chat/
+├── backend/        # FastAPI-based backend
+├── frontend/       # Next.js frontend using TailwindCSS
+```
+
+---
+
+## 📦 Dependencies
+
+### Backend
+
+Dependencies listed in `requirements.txt`:
+
+* `fastapi`
+* `uvicorn`
+* `crewai`
+* `text`
+* `python-dotenv`
+
+### Frontend
+
+Uses:
+
+* TailwindCSS
+* PostCSS
+* React (likely via Next.js)
+
+---
+
+## 🛠️ Setup Instructions
+
+### Prerequisites
+
+* [Python](https://www.python.org/downloads/) (v3.8+)
+* [Node.js](https://nodejs.org/) (v16+)
+* `pip` and `npm` installed globally
+
+---
+
+### 🔧 Backend Setup
+
+1. Navigate to the backend folder:
+
+   ```bash
+   cd AI-PDF-Chat/backend
+   ```
+
+2. Create and activate a virtual environment:
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate     # On Windows: venv\Scripts\activate
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Start the FastAPI server:
+
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+---
+
+### 🎨 Frontend Setup
+
+1. Navigate to the frontend folder:
+
+   ```bash
+   cd AI-PDF-Chat/frontend
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🌐 Access the Application
+
+* **Frontend**: [http://localhost:3000](http://localhost:3000)
+* **Backend API**: [http://localhost:8000](http://localhost:8000)
+
+---
+
