@@ -1,18 +1,4 @@
----
 
-# AI PDF
-
-## Overview
-AI PDF is a project that leverages artificial intelligence to analyze, extract, and interact with data from PDF documents. The tool is designed to simplify document processing tasks, making it easier to parse and utilize information from PDF files.
-
-## Features
-- **AI-Powered Analysis**: Extract insights and data from PDF documents using advanced AI models.
-- **Customizable Workflows**: Adapt workflows to suit your specific document processing needs.
-- **User-Friendly Interface**: Simplify handling and processing of PDFs with an intuitive interface.
-
-Here's a clean and well-formatted version of your README content in Markdown:
-
----
 
 # AI-PDF
 
