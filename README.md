@@ -25,6 +25,12 @@ AI-PDF-Chat/
 
 ---
 
+## Flow Diagram
+
+![image](https://github.com/Omkar2240/ai-pdf/blob/main/diagram.png?raw=true)
+
+---
+
 ## 📦 Dependencies
 
 ### Backend
