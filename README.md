@@ -84,9 +84,10 @@ Uses:
    uvicorn main:app --reload
    ```
 5. Create `.env` file and add your openAI API Key:
+   
    ```bash
-  .env=<yourapikey>
-  ```
+   OPENAI_API_KEY=<yourapikey>
+   ```
 
 ---
 
